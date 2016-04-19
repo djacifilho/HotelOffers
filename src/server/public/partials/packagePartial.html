@@ -1,0 +1,91 @@
+<div ng-view id="content" class="container" ng-controller="packageController">
+	<div class="row col-xs-12">
+		<h2>{{ package.title }}</h2>
+		<span>{{ package.location }}</span>
+		<span>{{ package.description }}</span>
+	</div>
+
+	<div class="row col-xs-12">
+		<img style="height:200px; padding:10px; max-width:100%; max-height:90%;" ng-src="{{package.photos[0]}}"></img>
+	</div>
+
+
+	<div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<span>Escolha sua melhor opção</span>
+			</div>
+
+			<div class="col-md-4 col-sm-12">
+				<span>Saídas</span>
+				<div class="btn-group" uib-dropdown is-open="dropDownFrom.isopen">
+					<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
+					Selecione <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+						<li role="menuitem"><a ng-click="selectFrom()">Selecione</a></li>
+						<li ng-repeat="fr in fromOptions" role="menuitem"><a ng-click="selectFrom(this.fr)">{{fr}}</a></li>
+					</ul>
+			    </div>
+			</div>
+
+			<div class="col-md-4 col-sm-12">
+				<span>Nº Diárias</span>
+				<div class="btn-group" uib-dropdown is-open="dropDownDays.isopen">
+					<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
+					Selecione <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+						<li role="menuitem"><a ng-click="selectDay()">Selecione</a></li>
+						<li ng-repeat="d in daysOptions" role="menuitem"><a ng-click="selectDay(this.d)">{{d}}</a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+
+		<ul class="ulOptions" ng-repeat="opt in package.options | filter: myFilter | orderBy: 'price'">
+			<div class="row optionBorder">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<p>
+						<span class="spantitle">{{opt.title}}</span>
+						<span>{{opt.description}}</span>
+					</p>
+				</div>
+
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<span class="fromtitle">Saídas:</span>
+					<p>
+						<span ng-repeat="fr in opt.from | orderBy: fr">{{fr}}</span>
+					</p>
+				</div>
+
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<p>
+						<span class="numberFocus">{{opt.daily}} <i class="fa fa-sun-o" aria-hidden="true"></i></span>
+						<span>Diárias</span>
+					</p>
+					<p>
+						<span class="numberFocus">1 <i class="fa fa-male" aria-hidden="true"></i></span>
+						<span>Pessoa</span>
+					</p>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<p>
+						<span>Por Apenas:</span>
+						<div>
+							<label class="currency">R$ </label>
+							<span class="currencyValue">{{opt.price}}</span>
+						</div>
+						<button type="button" class="btn btn-warning">Quero Ir</button>
+					</p>
+				</div>
+
+			</div>
+		</ul>
+
+
+	</div>
+
+</div>

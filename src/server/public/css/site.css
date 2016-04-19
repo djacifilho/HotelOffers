@@ -1,0 +1,51 @@
+#nav {
+	background-color: #333;
+}
+
+#nav .active {
+	background-color: #4472B9;
+}
+
+.spantitle {
+	font-weight: bold;
+	font-size: 16px
+}
+
+.fromtitle {
+	font-weight: bold;
+}
+
+.numberFocus {
+	font-weight: bold;
+	font-size: 18px
+}
+
+.currency {
+	font-weight: bold;
+	font-size: 14px
+}
+
+.currencyValue {
+	font-weight: bold;
+	font-size: 22px
+}
+
+p span {
+    display: block;
+}
+
+.optionBorder {
+	border: 1px solid gray;
+}
+
+.ulOptions {
+	padding-top: 10px;
+	padding-left: 0px!important
+}
+
+.row {
+	padding-right: 15px!important;
+    padding-left: 15px!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}

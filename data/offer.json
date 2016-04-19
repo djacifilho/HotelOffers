@@ -1,9 +1,9 @@
-[
-  {
-    "id": 0,
+{
+    tempOffers: [  {
+    "_id": 0,
     "title": "Hotel The Mirage (Hotel & Casino)",
     "location": "Las Vegas, USA",
-    "description": "AÈreo de v·rias cidades + Hotel em Vegas",
+    "description": "A√©reo de v√°rias cidades + Hotel em Vegas",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -16,9 +16,9 @@
     ],
     "options": [
       {
-        "id": 2,
+        "_id": 2,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -27,20 +27,20 @@
         "price": 2380
       },
       {
-        "id": 0,
+        "_id": 0,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 1,
+        "_id": 1,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -48,9 +48,9 @@
         "price": 2620
       },
       {
-        "id": 3,
+        "_id": 3,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -58,9 +58,9 @@
         "price": 3549
       },
       {
-        "id": 7,
+        "_id": 7,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -68,9 +68,9 @@
         "price": 5120
       },
       {
-        "id": 8,
+        "_id": 8,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -80,20 +80,20 @@
         "price": 5380
       },
       {
-        "id": 4,
+        "_id": 4,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3720
       },
       {
-        "id": 5,
+        "_id": 5,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -101,15 +101,15 @@
         "price": 3380
       },
       {
-        "id": 6,
+        "_id": 6,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -117,10 +117,10 @@
     ]
   },
   {
-    "id": 1,
+    "_id": 1,
     "title": "Wynn Las Vegas",
     "location": "Las Vegas, USA",
-    "description": "AÈreo + Hotel",
+    "description": "A√©reo + Hotel",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -131,9 +131,9 @@
     ],
     "options": [
       {
-        "id": 12,
+        "_id": 12,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -142,20 +142,20 @@
         "price": 2380
       },
       {
-        "id": 10,
+        "_id": 10,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 11,
+        "_id": 11,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -163,9 +163,9 @@
         "price": 2120
       },
       {
-        "id": 13,
+        "_id": 13,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -173,9 +173,9 @@
         "price": 3549
       },
       {
-        "id": 17,
+        "_id": 17,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -183,20 +183,20 @@
         "price": 9120
       },
       {
-        "id": 14,
+        "_id": 14,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 15,
+        "_id": 15,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -204,15 +204,15 @@
         "price": 3380
       },
       {
-        "id": 16,
+        "_id": 16,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5559
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": 2,
+    "_id": 2,
     "title": "The Venetian",
     "location": "Las Vegas, USA",
     "description": "Hotel com estilo oriental",
@@ -236,9 +236,9 @@
     ],
     "options": [
       {
-        "id": 22,
+        "_id": 22,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -247,20 +247,20 @@
         "price": 2380
       },
       {
-        "id": 20,
+        "_id": 20,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 21,
+        "_id": 21,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -268,9 +268,9 @@
         "price": 2120
       },
       {
-        "id": 23,
+        "_id": 23,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -278,9 +278,9 @@
         "price": 3549
       },
       {
-        "id": 27,
+        "_id": 27,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -288,9 +288,9 @@
         "price": 5120
       },
       {
-        "id": 28,
+        "_id": 28,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -300,26 +300,26 @@
         "price": 5380
       },
       {
-        "id": 24,
+        "_id": 24,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3123
       },
       {
-        "id": 26,
+        "_id": 26,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5544
@@ -327,10 +327,10 @@
     ]
   },
   {
-    "id": 3,
+    "_id": 3,
     "title": "Stratosphere Las Vegas",
     "location": "Las Vegas, USA",
-    "description": "AÈreo incluso",
+    "description": "A√©reo incluso",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -343,9 +343,9 @@
     ],
     "options": [
       {
-        "id": 32,
+        "_id": 32,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -354,20 +354,20 @@
         "price": 2380
       },
       {
-        "id": 30,
+        "_id": 30,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 31,
+        "_id": 31,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -375,9 +375,9 @@
         "price": 2120
       },
       {
-        "id": 33,
+        "_id": 33,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -385,9 +385,9 @@
         "price": 3549
       },
       {
-        "id": 37,
+        "_id": 37,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -395,9 +395,9 @@
         "price": 5120
       },
       {
-        "id": 38,
+        "_id": 38,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -407,20 +407,20 @@
         "price": 5380
       },
       {
-        "id": 34,
+        "_id": 34,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 35,
+        "_id": 35,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -428,15 +428,15 @@
         "price": 3380
       },
       {
-        "id": 36,
+        "_id": 36,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -444,10 +444,10 @@
     ]
   },
   {
-    "id": 4,
+    "_id": 4,
     "title": "Caesars Palace",
     "location": "Las Vegas, USA",
-    "description": "AÈreo de v·rias cidades com Hotel em Las Vegas",
+    "description": "A√©reo de v√°rias cidades com Hotel em Las Vegas",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -460,20 +460,20 @@
     ],
     "options": [
       {
-        "id": 40,
+        "_id": 40,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 41,
+        "_id": 41,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -481,9 +481,9 @@
         "price": 2120
       },
       {
-        "id": 47,
+        "_id": 47,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -491,9 +491,9 @@
         "price": 5120
       },
       {
-        "id": 48,
+        "_id": 48,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -503,20 +503,20 @@
         "price": 5380
       },
       {
-        "id": 44,
+        "_id": 44,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 45,
+        "_id": 45,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -524,15 +524,15 @@
         "price": 3380
       },
       {
-        "id": 46,
+        "_id": 46,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -540,10 +540,10 @@
     ]
   },
   {
-    "id": 5,
+    "_id": 5,
     "title": "Bellagio Hotel and Casino",
     "location": "Las Vegas, USA",
-    "description": "AÈreo de v·rias cidades",
+    "description": "A√©reo de v√°rias cidades",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -556,9 +556,9 @@
     ],
     "options": [
       {
-        "id": 52,
+        "_id": 52,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -567,20 +567,20 @@
         "price": 2380
       },
       {
-        "id": 50,
+        "_id": 50,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 51,
+        "_id": 51,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -588,9 +588,9 @@
         "price": 2120
       },
       {
-        "id": 53,
+        "_id": 53,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -598,9 +598,9 @@
         "price": 3549
       },
       {
-        "id": 57,
+        "_id": 57,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -608,9 +608,9 @@
         "price": 5520
       },
       {
-        "id": 58,
+        "_id": 58,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -620,20 +620,20 @@
         "price": 5380
       },
       {
-        "id": 54,
+        "_id": 54,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3920
       },
       {
-        "id": 55,
+        "_id": 55,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -641,15 +641,15 @@
         "price": 3380
       },
       {
-        "id": 56,
+        "_id": 56,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -657,7 +657,7 @@
     ]
   },
   {
-    "id": 6,
+    "_id": 6,
     "title": "Paris Las Vegas",
     "location": "Las Vegas, USA",
     "description": "Hotel em Vegas",
@@ -671,9 +671,9 @@
     ],
     "options": [
       {
-        "id": 62,
+        "_id": 62,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -682,20 +682,20 @@
         "price": 2180
       },
       {
-        "id": 60,
+        "_id": 60,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 61,
+        "_id": 61,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -703,9 +703,9 @@
         "price": 2120
       },
       {
-        "id": 67,
+        "_id": 67,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -713,9 +713,9 @@
         "price": 5020
       },
       {
-        "id": 68,
+        "_id": 68,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -725,20 +725,20 @@
         "price": 5380
       },
       {
-        "id": 64,
+        "_id": 64,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 65,
+        "_id": 65,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -748,10 +748,10 @@
     ]
   },
   {
-    "id": 7,
+    "_id": 7,
     "title": "Trump International Hotel Las Vegas",
     "location": "Las Vegas, USA",
-    "description": "AÈreo de v·rias cidades + Hotel em Vegas",
+    "description": "A√©reo de v√°rias cidades + Hotel em Vegas",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -764,9 +764,9 @@
     ],
     "options": [
       {
-        "id": 72,
+        "_id": 72,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -775,20 +775,20 @@
         "price": 2780
       },
       {
-        "id": 70,
+        "_id": 70,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 71,
+        "_id": 71,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -796,9 +796,9 @@
         "price": 2120
       },
       {
-        "id": 73,
+        "_id": 73,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -806,9 +806,9 @@
         "price": 3549
       },
       {
-        "id": 77,
+        "_id": 77,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -816,9 +816,9 @@
         "price": 5120
       },
       {
-        "id": 78,
+        "_id": 78,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -828,20 +828,20 @@
         "price": 5380
       },
       {
-        "id": 74,
+        "_id": 74,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 75,
+        "_id": 75,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -849,15 +849,15 @@
         "price": 3380
       },
       {
-        "id": 76,
+        "_id": 76,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -865,10 +865,10 @@
     ]
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "The Cosmopolitan of Las Vegas",
     "location": "Las Vegas, USA",
-    "description": "AÈreo de v·rias cidades + Hotel em Vegas + Passeio",
+    "description": "A√©reo de v√°rias cidades + Hotel em Vegas + Passeio",
     "photos": [
       "images/photo6.jpg",
       "images/photo8.jpg",
@@ -881,9 +881,9 @@
     ],
     "options": [
       {
-        "id": 82,
+        "_id": 82,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -892,20 +892,20 @@
         "price": 2380
       },
       {
-        "id": 80,
+        "_id": 80,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 83,
+        "_id": 83,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -913,9 +913,9 @@
         "price": 3549
       },
       {
-        "id": 87,
+        "_id": 87,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -923,9 +923,9 @@
         "price": 5120
       },
       {
-        "id": 88,
+        "_id": 88,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -935,20 +935,20 @@
         "price": 5380
       },
       {
-        "id": 84,
+        "_id": 84,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro",
-          "S„o Paulo"
+          "S√£o Paulo"
         ],
         "daily": 8,
         "price": 3120
       },
       {
-        "id": 85,
+        "_id": 85,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia"
         ],
@@ -956,15 +956,15 @@
         "price": 1380
       },
       {
-        "id": 86,
+        "_id": 86,
         "title": "Noites em Vegas e Albuquerque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
           "Salvador",
-          "IlhÈus",
+          "Ilh√©us",
           "Boa Vista",
-          "Cuiab·"
+          "Cuiab√°"
         ],
         "daily": 12,
         "price": 5549
@@ -972,10 +972,10 @@
     ]
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "Lady Luck Casino Hotel",
     "location": "New York, NY",
-    "description": "AÈreo + Hotel + Tour pela cidade mais movimentada do mundo",
+    "description": "A√©reo + Hotel + Tour pela cidade mais movimentada do mundo",
     "photos": [
       "images/photo6.jpg",
       "images/photo7.jpg",
@@ -985,9 +985,9 @@
     ],
     "options": [
       {
-        "id": 92,
+        "_id": 92,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -996,20 +996,20 @@
         "price": 2380
       },
       {
-        "id": 90,
+        "_id": 90,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 93,
+        "_id": 93,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -1017,9 +1017,9 @@
         "price": 3549
       },
       {
-        "id": 97,
+        "_id": 97,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -1027,9 +1027,9 @@
         "price": 5120
       },
       {
-        "id": 98,
+        "_id": 98,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -1041,10 +1041,10 @@
     ]
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "Stratus Casino & Hotel",
     "location": "New York, NY",
-    "description": "AÈreo + Hotel + Tour + Carro alugado\n",
+    "description": "A√©reo + Hotel + Tour + Carro alugado\n",
     "photos": [
       "images/photo6.jpg",
       "images/photo7.jpg",
@@ -1054,9 +1054,9 @@
     ],
     "options": [
       {
-        "id": 192,
+        "_id": 192,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -1065,20 +1065,20 @@
         "price": 2380
       },
       {
-        "id": 190,
+        "_id": 190,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2539
       },
       {
-        "id": 193,
+        "_id": 193,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -1086,9 +1086,9 @@
         "price": 3549
       },
       {
-        "id": 197,
+        "_id": 197,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -1096,9 +1096,9 @@
         "price": 5120
       },
       {
-        "id": 198,
+        "_id": 198,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -1110,10 +1110,10 @@
     ]
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "Lady Luck Casino Hotel",
     "location": "New York, NY",
-    "description": "AÈreo + Hotel + Tour pela cidade mais movimentada do mundo",
+    "description": "A√©reo + Hotel + Tour pela cidade mais movimentada do mundo",
     "photos": [
       "images/photo6.jpg",
       "images/photo7.jpg",
@@ -1123,9 +1123,9 @@
     ],
     "options": [
       {
-        "id": 192,
+        "_id": 192,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -1134,20 +1134,20 @@
         "price": 2380
       },
       {
-        "id": 190,
+        "_id": 190,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 193,
+        "_id": 193,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -1155,9 +1155,9 @@
         "price": 3549
       },
       {
-        "id": 197,
+        "_id": 197,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -1165,9 +1165,9 @@
         "price": 5120
       },
       {
-        "id": 198,
+        "_id": 198,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -1179,10 +1179,10 @@
     ]
   },
   {
-    "id": 8,
+    "_id": 8,
     "title": "Ca$$ino Hotel Hotel",
     "location": "New York, NY",
-    "description": "Hotel + AÈreo + $100 para ser usado no casino",
+    "description": "Hotel + A√©reo + $100 para ser usado no casino",
     "photos": [
       "images/photo6.jpg",
       "images/photo7.jpg",
@@ -1192,9 +1192,9 @@
     ],
     "options": [
       {
-        "id": 192,
+        "_id": 192,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Campo Grande"
@@ -1203,20 +1203,20 @@
         "price": 2380
       },
       {
-        "id": 190,
+        "_id": 190,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus",
-          "BelÈm"
+          "Bel√©m"
         ],
         "daily": 5,
         "price": 2549
       },
       {
-        "id": 193,
+        "_id": 193,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Manaus"
         ],
@@ -1224,9 +1224,9 @@
         "price": 3549
       },
       {
-        "id": 197,
+        "_id": 197,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Rio de Janeiro"
         ],
@@ -1234,9 +1234,9 @@
         "price": 5120
       },
       {
-        "id": 198,
+        "_id": 198,
         "title": "Noite em Nova Iorque",
-        "description": "AtenÁ„o, quarto duplo È necess·rio adquirir 2 pacotes",
+        "description": "Aten√ß√£o, quarto duplo √© necess√°rio adquirir 2 pacotes",
         "from": [
           "Brasilia",
           "Salvador",
@@ -1247,4 +1247,4 @@
       }
     ]
   }
-]
+] }

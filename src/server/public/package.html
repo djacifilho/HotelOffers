@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+
+	<link rel="stylesheet" href="../css/site.css">
+
+	<script src="../js/ng-cloak.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<title>Hotel Offers</title>
+</head>
+<body>
+
+	<div class="container" ng-controller="PackageController">
+
+		<div id="header"></div>
+
+		<!--Remaining section-->
+		<!-- Angular UI Router Directive for template insertion -->
+        <div id="content" class="container" ui-view style="padding-top:20px">
+			<h1>{{title}}</h1>
+			</h2>{{location}}<h2>
+
+		</div>
+
+		<div id="footer"></div>
+	</div>
+
+
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+	<script src="../js/app.js"></script>
+	<script src="../js/routes.js"></script>
+	<script src="../js/controllers/packageController.js"></script>
+
+
+	<script>
+		$(function(){
+			$("#header").load("../header.html");
+			$("#footer").load("../footer.html");
+		});
+	</script>
+</body>
+</html>
