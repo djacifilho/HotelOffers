@@ -1,16 +1,14 @@
 {
-  "name": "server_test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Djaci Alves",
-  "license": "ISC",
-  "devDependencies": {
-    "mocha": "^2.4.5",
-    "should": "^8.3.1",
-    "supertest": "^1.2.0"
-  }
+    "name": "server_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "author": "Djaci Alves",
+    "license": "ISC",
+    "devDependencies":
+        {
+        "mocha": "^2.4.5",
+        "should": "^8.3.1",
+        "supertest": "^1.2.0"
+    }
 }

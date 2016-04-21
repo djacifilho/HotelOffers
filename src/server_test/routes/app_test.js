@@ -7,7 +7,7 @@ var server = supertest.agent("http://localhost:3000");
 
 module.exports.run = function(server) {
 
-	describe("Pages  - should return Page",function(){
+	describe("Pages - should return Page",function(){
 
 	  it("index",function(done){
 
