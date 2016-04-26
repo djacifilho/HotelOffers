@@ -1,48 +1,47 @@
 <div ng-view id="content" class="container" ng-controller="packageController">
-	<div class="row col-xs-12">
-		<h2>{{ package.title }}</h2>
-		<span>{{ package.location }}</span>
-		<span>{{ package.description }}</span>
-	</div>
-
-	<div class="row col-xs-12">
-		<img style="height:200px; padding:10px; max-width:100%; max-height:90%;" ng-src="{{package.photos[0]}}"></img>
-	</div>
-
-
-	<div>
-
-		<div class="row">
-			<div class="col-md-4 col-sm-12">
-				<span>Escolha sua melhor opção</span>
-			</div>
-
-			<div class="col-md-4 col-sm-12">
-				<span>Saídas</span>
-				<div class="btn-group" uib-dropdown is-open="dropDownFrom.isopen">
-					<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
-					Selecione <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
-						<li role="menuitem"><a ng-click="selectFrom()">Selecione</a></li>
-						<li ng-repeat="fr in fromOptions" role="menuitem"><a ng-click="selectFrom(this.fr)">{{fr}}</a></li>
-					</ul>
-			    </div>
-			</div>
-
-			<div class="col-md-4 col-sm-12">
-				<span>Nº Diárias</span>
-				<div class="btn-group" uib-dropdown is-open="dropDownDays.isopen">
-					<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
-					Selecione <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
-						<li role="menuitem"><a ng-click="selectDay()">Selecione</a></li>
-						<li ng-repeat="d in daysOptions" role="menuitem"><a ng-click="selectDay(this.d)">{{d}}</a></li>
-					</ul>
-			    </div>
-			</div>
+	<div class="row">
+		<div class="col-md-12 col-xs-12">
+			<h2>{{ package.title }}</h2>
+			<span>{{ package.location }}</span>
+			<span>{{ package.description }}</span>
 		</div>
+	</div>
+
+	<div class="row">
+		<img class="col-md-12 col-xs-12" style="height:200px; padding:10px; max-width:100%; max-height:auto;" ng-src="{{package.photos[0]}}"></img>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
+			<span style="display: block">Escolha sua melhor opção</span>
+		</div>
+
+		<div class="col-md-4 col-sm-12">
+			<span>Saídas</span>
+			<div class="btn-group" uib-dropdown is-open="dropDownFrom.isopen">
+				<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
+				Selecione <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+					<li role="menuitem"><a ng-click="selectFrom()">Selecione</a></li>
+					<li ng-repeat="fr in fromOptions" role="menuitem"><a ng-click="selectFrom(this.fr)">{{fr}}</a></li>
+				</ul>
+		    </div>
+		</div>
+
+		<div class="col-md-4 col-sm-12">
+			<span>Nº Diárias</span>
+			<div class="btn-group" uib-dropdown is-open="dropDownDays.isopen">
+				<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
+				Selecione <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+					<li role="menuitem"><a ng-click="selectDay()">Selecione</a></li>
+					<li ng-repeat="d in daysOptions" role="menuitem"><a ng-click="selectDay(this.d)">{{d}}</a></li>
+				</ul>
+		    </div>
+		</div>
+	</div>
 
 		<ul class="ulOptions" ng-repeat="opt in package.options | filter: myFilter | orderBy: 'price'">
 			<div class="row optionBorder">
@@ -86,6 +85,5 @@
 		</ul>
 
 
-	</div>
 
 </div>

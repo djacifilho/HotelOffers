@@ -1,14 +1,32 @@
 <div ng-view id="content" class="container" ng-controller="packagesController">
 	<div class="row">
-		<ul ng-repeat="pkg in packages" class="ulOptions optionBorder col-md-12 col-sm-12">
+		<div class="ulOptions optionBorder col-md-4 col-sm-12">
+			<h3 style="margin:10px">Filtros</h3>
+			<ul>
+				<!-- <span>Saídas</span>
+				<div class="btn-group" uib-dropdown is-open="dropDownFrom.isopen">
+					<button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle>
+					Selecione <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+						<li role="menuitem"><a ng-click="selectFrom()">Selecione</a></li>
+						<li ng-repeat="fr in fromOptions" role="menuitem"><a ng-click="selectFrom(this.fr)">{{fr}}</a></li>
+					</ul>
+			    </div> -->
+			</ul>
+		</div>
+		<div class="col-md-8 col-sm-12 noPaddingRight">
+			<ul ng-repeat="pkg in packages" class="ulOptions optionBorder">
 
-			<div>
-				<img style="height:200px; padding:10px; max-width:100%; max-height:90%;" ng-src="{{pkg.photos[0]}}"></img>
-			</div>
-			<h2>{{pkg.title}}</h2>
-			<h3>{{pkg.location}}</h3>
+				<div>
+					<img style="height:200px; padding:10px; max-width:100%; max-height:90%;" ng-src="{{pkg.photos[0]}}"></img>
+				</div>
+				<h2>{{pkg.title}}</h2>
+				<h3>{{pkg.location}}</h3>
 
-			<button type="button" class="btn btn-warning" ui-sref="packagesdetails({ id: {{pkg._id}} })">Ver</button>
-		</ul>
+				<button type="button" class="btn btn-warning" ui-sref="packagesdetails({ id: {{pkg._id}} })">Ver</button>
+			</ul>
+		</div>
+
 	</div>
 </div>
